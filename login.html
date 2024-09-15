@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+      
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+            color: white;
+            margin: 0;
+        }
+        .login-form {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 200px;
+            border-radius: 5px;
+            border: none;
+        }
+        a {
+            display: block;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            background-color: #555;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        a:hover {
+            background-color: #666;
+        }
+        img {
+            width: 100px; /* Ajusta el tamaño de la imagen del logo */
+            margin-bottom: 20px; /* Espacio entre el logo y el formulario */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-form">
+        <img src="img/img_logo.png" alt="Logo"> <!-- Reemplaza con la ruta de tu logo -->
+        <h2>Inicio de Sesión</h2>
+        <input type="email" placeholder="Correo Electrónico" required>
+        <input type="text" placeholder="Nombre" required>
+        <input type="password" placeholder="Contraseña" required>
+        <input type="password" placeholder="Vuelva a escribir la contraseña" required>
+        <a href="vista/index.html">Registrarse</a> <!-- Cambiado de botón a enlace -->
+        <p>¿Ya tienes cuenta? <a href="#" style="color: lightblue;">Ingresa aquí</a></p>
+    </div>
+
+</body>
+</html>
+</body>
+</html>

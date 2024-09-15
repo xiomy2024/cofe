@@ -1,0 +1,22 @@
+-- Base de datos: `dbcafe`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `accounts`
+--
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT ,
+  `username` tinytext COLLATE utf8_spanish2_ci NOT NULL,
+  `password` text COLLATE utf8_spanish2_ci NOT NULL,
+  `email` text COLLATE utf8_spanish2_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
+
+--
+-- Volcado de datos para la tabla `accounts`
+--
+
+INSERT INTO `usuarios` ( `username`, `password`, `email`) VALUES
+('Marina Cordova', '1234', 'mcordova@gmail.com');
